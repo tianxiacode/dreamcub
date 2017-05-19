@@ -1,0 +1,82 @@
+@charset 'utf-8';
+body{
+	background-color: #E7E7E7;
+}
+.carousel-inner img{
+	margin: 0 auto;
+}
+#datudiv{
+	margin-top: 50px;
+}
+#neironghead{
+	color: #666;
+}
+.neih2{
+	margin: 30px;
+	font-size: 22px;
+	color: #666;
+}
+.thumbnail img{
+	width: 90%;
+}
+.caption {
+	text-align: center;
+}
+/*小屏幕（平板，大于等于768px）*/
+@media(min-width: 768px){
+	.neih2{font-size: 26px;}
+	#jumup{font-size: 16px;}
+}
+/*中等屏幕（桌面显示，大于等于992px）*/
+@media(min-width: 992px){
+	.neih2{font-size: 28px;}
+	#jumup{font-size: 18px;}
+}
+/*大屏幕（大屏幕，大于等于1200px）*/
+@media(min-width: 1200px){
+	.neih2{font-size: 30px;}
+	#jumup{font-size: 20px;}
+}
+#footer{
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.jumbotron{
+	background-image: url(../img/big/22.jpg);
+	margin-top: 50px;
+	color: #eee;
+}
+#jumup{
+	font-size: 14px;
+}
+.media-body p{
+	font-size: 13px;
+	color: #999999;
+}
+.media{
+	box-shadow: 2px 2px 4px #ccc;
+	margin: 20px 0;
+	padding: 10px;
+	background-color: white;
+}
+#fenye{
+	position: relative;
+	left: 50%;
+	margin-left: -115px;
+}
+.thumbnail img:hover{
+	box-shadow: 8px 8px 8px #ccc;
+}
+.dropdown{
+	margin: 30px;
+}
+#mulu{
+	margin-top:40px;
+	font-size: 16px;
+}
+.tu{
+	display: none;
+}
